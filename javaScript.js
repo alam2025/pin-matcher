@@ -38,8 +38,6 @@ const submitBtn = document.getElementById('submit-btn').addEventListener('click'
     if (pin1 === pin2) {
         document.getElementById('pin-match').style.display = 'block';
         document.getElementById('pin-not-match').style.display = 'none';
-       // document.getElementById('area').style.display='none';
-        document.getElementById('action-success').style.display='block';
     }
     else {
 
